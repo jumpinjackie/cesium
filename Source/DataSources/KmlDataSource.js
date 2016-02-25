@@ -2083,6 +2083,7 @@ define([
      * @alias KmlDataSource
      * @constructor
      *
+     * @param {Object} options Object with the following properties:
      * @param {Camera} options.camera The camera that is used for viewRefreshModes and sending camera properties to network links.
      * @param {Canvas} options.canvas The canvas that is used for sending viewer properties to network links.
      * @param {DefaultProxy} [options.proxy] A proxy to be used for loading external data.
