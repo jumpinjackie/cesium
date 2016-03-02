@@ -37,7 +37,7 @@ define([
      *
      * @param {Color} color The color of the pin.
      * @param {Number} size The size of the pin, in pixels.
-     * @returns {Canvas} The canvas element that represents the generated pin.
+     * @returns {HTMLCanvasElement} The canvas element that represents the generated pin.
      */
     PinBuilder.prototype.fromColor = function(color, size) {
         //>>includeStart('debug', pragmas.debug);
@@ -57,7 +57,7 @@ define([
      * @param {String} url The url of the image to be stamped onto the pin.
      * @param {Color} color The color of the pin.
      * @param {Number} size The size of the pin, in pixels.
-     * @returns {Canvas|Promise.<Canvas>} The canvas element or a Promise to the canvas element that represents the generated pin.
+     * @returns {HTMLCanvasElement|Promise.<HTMLCanvasElement>} The canvas element or a Promise to the canvas element that represents the generated pin.
      */
     PinBuilder.prototype.fromUrl = function(url, color, size) {
         //>>includeStart('debug', pragmas.debug);
@@ -80,7 +80,7 @@ define([
      * @param {String} id The id of the maki icon to be stamped onto the pin.
      * @param {Color} color The color of the pin.
      * @param {Number} size The size of the pin, in pixels.
-     * @returns {Canvas|Promise.<Canvas>} The canvas element or a Promise to the canvas element that represents the generated pin.
+     * @returns {HTMLCanvasElement|Promise.<HTMLCanvasElement>} The canvas element or a Promise to the canvas element that represents the generated pin.
      */
     PinBuilder.prototype.fromMakiIconId = function(id, color, size) {
         //>>includeStart('debug', pragmas.debug);
@@ -104,7 +104,7 @@ define([
      * @param {String} text The text to be stamped onto the pin.
      * @param {Color} color The color of the pin.
      * @param {Number} size The size of the pin, in pixels.
-     * @returns {Canvas} The canvas element that represents the generated pin.
+     * @returns {HTMLCanvasElement} The canvas element that represents the generated pin.
      */
     PinBuilder.prototype.fromText = function(text, color, size) {
         //>>includeStart('debug', pragmas.debug);

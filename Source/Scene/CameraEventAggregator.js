@@ -250,7 +250,7 @@ define([
      * @alias CameraEventAggregator
      * @constructor
      *
-     * @param {Canvas} [element=document] The element to handle events for.
+     * @param {HTMLCanvasElement} [element=document] The element to handle events for.
      *
      * @see ScreenSpaceEventHandler
      */
