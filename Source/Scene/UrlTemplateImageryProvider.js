@@ -487,7 +487,7 @@ define([
      * Reinitializes this instance.  Reinitializing an instance already in use is supported, but it is not
      * recommended because existing tiles provided by the imagery provider will not be updated.
      *
-     * @param {Promise|Object} options Any of the options that may be passed to the {@link UrlTemplateImageryProvider} constructor.
+     * @param {Promise.<*>|Object} options Any of the options that may be passed to the {@link UrlTemplateImageryProvider} constructor.
      */
     UrlTemplateImageryProvider.prototype.reinitialize = function(options) {
         var that = this;
