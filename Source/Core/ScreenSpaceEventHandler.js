@@ -636,7 +636,7 @@ define([
      *
      * @alias ScreenSpaceEventHandler
      *
-     * @param {HTMLCanvasElement} [element=document] The element to add events to.
+     * @param {Canvas} [element=document] The element to add events to.
      *
      * @constructor
      */

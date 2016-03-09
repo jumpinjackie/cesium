@@ -13,7 +13,7 @@ define([
      *
      * @exports getImagePixels
      *
-     * @param {HTMLImageElement} image The image to extract pixels from.
+     * @param {Image} image The image to extract pixels from.
      * @returns {CanvasPixelArray} The pixels of the image.
      */
     function getImagePixels(image, width, height) {

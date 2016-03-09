@@ -375,7 +375,7 @@ define([
          * Gets the canvas.
          * @memberof CesiumWidget.prototype
          *
-         * @type {HTMLCanvasElement}
+         * @type {Canvas}
          */
         canvas : {
             get : function() {

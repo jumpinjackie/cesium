@@ -909,7 +909,7 @@ Either specify options.terrainProvider instead or set options.baseLayerPicker to
         /**
          * Gets the canvas.
          * @memberof Viewer.prototype
-         * @type {HTMLCanvasElement}
+         * @type {Canvas}
          * @readonly
          */
         canvas : {

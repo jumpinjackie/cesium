@@ -264,7 +264,7 @@ define([
      * @param {Number} x The tile X coordinate.
      * @param {Number} y The tile Y coordinate.
      * @param {Number} level The tile level.
-     * @returns {Promise.<HTMLImageElement|HTMLCanvasElement>|undefined} A promise for the image that will resolve when the image is available, or
+     * @returns {Promise.<Image|Canvas>|undefined} A promise for the image that will resolve when the image is available, or
      *          undefined if there are too many active requests to the server, and the request
      *          should be retried later.  The resolved image may be either an
      *          Image or a Canvas DOM object.
@@ -300,7 +300,7 @@ define([
      * that the request should be retried later.
      *
      * @param {String} url The URL of the image.
-     * @returns {Promise.<HTMLImageElement|HTMLCanvasElement>|undefined} A promise for the image that will resolve when the image is available, or
+     * @returns {Promise.<Image|Canvas>|undefined} A promise for the image that will resolve when the image is available, or
      *          undefined if there are too many active requests to the server, and the request
      *          should be retried later.  The resolved image may be either an
      *          Image or a Canvas DOM object.

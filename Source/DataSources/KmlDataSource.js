@@ -2085,7 +2085,7 @@ define([
      *
      * @param {Object} options Object with the following properties:
      * @param {Camera} options.camera The camera that is used for viewRefreshModes and sending camera properties to network links.
-     * @param {HTMLCanvasElement} options.canvas The canvas that is used for sending viewer properties to network links.
+     * @param {Canvas} options.canvas The canvas that is used for sending viewer properties to network links.
      * @param {DefaultProxy} [options.proxy] A proxy to be used for loading external data.
      *
      * @see {@link http://www.opengeospatial.org/standards/kml/|Open Geospatial Consortium KML Standard}
@@ -2150,7 +2150,7 @@ define([
      * @param {String|Document|Blob} data A url, parsed KML document, or Blob containing binary KMZ data or a parsed KML document.
      * @param {Object} [options] An object with the following properties:
      * @param {Camera} options.camera The camera that is used for viewRefreshModes and sending camera properties to network links.
-     * @param {HTMLCanvasElement} options.canvas The canvas that is used for sending viewer properties to network links.
+     * @param {Canvas} options.canvas The canvas that is used for sending viewer properties to network links.
      * @param {DefaultProxy} [options.proxy] A proxy to be used for loading external data.
      * @param {String} [options.sourceUri] Overrides the url to use for resolving relative links and other KML network features.
      *

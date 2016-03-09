@@ -969,7 +969,7 @@ define([
      * </p>
      *
      * @param {String} id The id of the image.  This can be any string that uniquely identifies the image.
-     * @param {HTMLImageElement|HTMLCanvasElement|String|Billboard~CreateImageCallback} image The image to load.  This parameter
+     * @param {Image|Canvas|String|Billboard~CreateImageCallback} image The image to load.  This parameter
      *        can either be a loaded Image or Canvas, a URL which will be loaded as an Image automatically,
      *        or a function which will be called to create the image if it hasn't been loaded already.
      * @example
@@ -1208,7 +1208,7 @@ define([
      * A function that creates an image.
      * @callback Billboard~CreateImageCallback
      * @param {String} id The identifier of the image to load.
-     * @returns {HTMLImageElement|HTMLCanvasElement|Promise<HTMLImageElement|HTMLCanvasElement>} The image, or a promise that will resolve to an image.
+     * @returns {Image|Canvas|Promise<Image|Canvas>} The image, or a promise that will resolve to an image.
      */
 
     return Billboard;

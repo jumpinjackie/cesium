@@ -100,7 +100,7 @@ define([
     /**
      * Given a tile image, decide whether to discard that image.
      *
-     * @param {HTMLImageElement} image An image to test.
+     * @param {Image} image An image to test.
      * @returns {Boolean} True if the image should be discarded; otherwise, false.
      *
      * @exception {DeveloperError} <code>shouldDiscardImage</code> must not be called before the discard policy is ready.

@@ -28,7 +28,7 @@ define([
      * @param {Color} [options.fillColor=Color.WHITE] The fill color.
      * @param {Color} [options.strokeColor=Color.BLACK] The stroke color.
      * @param {Color} [options.strokeWidth=1] The stroke width.
-     * @returns {HTMLCanvasElement} A new canvas with the given text drawn into it.  The dimensions object
+     * @returns {Canvas} A new canvas with the given text drawn into it.  The dimensions object
      *                   from measureText will also be added to the returned canvas. If text is
      *                   blank, returns undefined.
      */
